@@ -1,0 +1,71 @@
+/* Style for the main container */
+#wpbody-content {
+    padding: 20px; /* Adjust padding as needed */
+}
+
+/* Style for the table */
+#wpbody-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Style for table headers */
+#wpbody-content table th {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc; /* Bottom border */
+}
+
+/* Style for table rows */
+#wpbody-content table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Bottom border */
+}
+
+/* Style for actions links in table */
+#wpbody-content table td a {
+    text-decoration: none;
+    color: #0073aa; /* Link color */
+    margin-right: 10px; /* Space between links */
+}
+
+#wpbody-content table td a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Clearfix */
+#wpbody-content .clear {
+    clear: both;
+}
+
+/* Contextual help wrap */
+#contextual-help-wrap {
+    margin-top: 20px; /* Adjust margin as needed */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Contextual help tabs */
+.contextual-help-tabs ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contextual-help-tabs ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contextual-help-tabs ul li a {
+    text-decoration: none;
+    color: #0073aa; /* Link color */
+}
+
+.contextual-help-tabs ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

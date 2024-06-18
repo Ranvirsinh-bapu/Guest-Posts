@@ -1,0 +1,106 @@
+
+#wpbody-content {
+    padding: 20px; 
+}
+
+
+#wpbody-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+
+
+#wpbody-content table th {
+    background-color: #f0f0f0; 
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc; 
+}
+
+
+#wpbody-content table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; 
+}
+
+
+#wpbody-content table td a {
+    text-decoration: none;
+    color: #0073aa; 
+    margin-right: 10px; 
+}
+
+#wpbody-content table td a:hover {
+    text-decoration: underline; 
+}
+
+
+#wpbody-content .clear {
+    clear: both;
+}
+
+
+#contextual-help-wrap {
+    margin-top: 20px; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.contextual-help-tabs ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contextual-help-tabs ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contextual-help-tabs ul li a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.contextual-help-tabs ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.page-numbers {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.page-numbers.current {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+.page-numbers:hover {
+    background-color: #ddd;
+}
+
+.page-numbers.next {
+    margin-left: 10px; 
+}
+
+.page-numbers.prev {
+    margin-right: 10px; 
+}

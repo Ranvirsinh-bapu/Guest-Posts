@@ -1,0 +1,94 @@
+
+#guest-post-form {
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+.title-wrap {
+    margin-bottom: 20px;
+}
+.title-text {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.title-input input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.content-wrap {
+    margin-bottom: 20px;
+}
+.content-text {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.content-input textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+
+.author-wrap {
+    margin-bottom: 20px;
+}
+.author-text {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.author-input input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.email-wrap {
+    margin-bottom: 20px;
+}
+.email-text {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.email-input input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.submit-wrap {
+    text-align: center;
+}
+.gp-submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.gp-submit:hover {
+    background-color: #45a049;
+}

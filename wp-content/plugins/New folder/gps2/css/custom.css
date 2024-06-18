@@ -1,0 +1,66 @@
+/* Container for the form */
+#guest-post-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Wrapper for each form group */
+.title-wrap,
+.content-wrap,
+.author-wrap,
+.email-wrap,
+.submit-wrap {
+    margin-bottom: 20px;
+}
+
+/* Text labels */
+.label-text {
+    font-weight: bold;
+}
+
+/* Input and textarea styles */
+.gp-input,
+.gp-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+}
+
+/* Submit button */
+.gp-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.gp-submit:hover {
+    background-color: #45a049;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #guest-post-form {
+        padding: 10px;
+    }
+    .gp-input,
+    .gp-textarea {
+        font-size: 12px;
+    }
+}
+.all-class{
+    color: red;
+}
+
